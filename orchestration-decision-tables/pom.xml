@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.biyat.bpm</groupId>
+  <artifactId>orchestration-decision-tables</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Biyat - Orchestration using Decision Tables</name>
+  <url>http://maven.apache.org</url>
+  
+  <parent>
+   <groupId>com.biyat</groupId>
+   <artifactId>bpm</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
+ </parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-amqp</artifactId>
+			<version>2.0.1.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>
+			<version>2.0.1.RELEASE</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.flowable</groupId>
+			<artifactId>flowable-dmn-spring</artifactId>
+			<version>6.2.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.flowable</groupId>
+			<artifactId>flowable-dmn-engine</artifactId>
+			<version>6.2.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.flowable</groupId>
+			<artifactId>flowable-dmn-engine-configurator</artifactId>
+			<version>6.2.1</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.45</version>
+		</dependency>
+
+	</dependencies>
+	
+</project>
