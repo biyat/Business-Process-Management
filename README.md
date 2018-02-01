@@ -1,4 +1,4 @@
-# Business Process Management (BPM) Decision Tables
+# Business Process Management (BPM)
 ## Technology
 ###### Spring Boot
 ###### Rabbit MQ
